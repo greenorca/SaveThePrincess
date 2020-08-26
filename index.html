@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Save the Princess</title>
+  <style media="screen">
+    article {
+      width: 900px;
+      margin: 50px auto;
+      padding: 15px 10px;
+      border: 2px solid #AFA;
+      border-radius: 5px;
+      font-family: sans-serif;
+      font-size: 1.3em;
+    }
+    #intro{
+      font-style: italic;
+    }
+    #info{
+      font-style: italic;
+      margin-top: 10px;
+      color: #A31;
+    }
+
+    #message{
+      min-height: 250px;
+    }
+
+    #answer_txt{
+      width: 70%;
+      display: block;
+      margin: 5px 0;
+    }
+
+
+
+    .win{
+      font-weight: bold;
+      color: #3A1;
+    }
+  </style>
+</head>
+<body>
+  <article class="">
+    <h1>Save the Princess (using Databases)</h1>
+    <p id="intro"><img id="img_zelda" src="img/zelda_prison.png" alt="" style="margin: 5px;float: right";>Prinzessin Amalya wurde entführt und in ein dunkles Verlies gesperrt. Du hast das Verlies bereits erreicht, aber es ist mit einer digitalen Sicherung verschlossen. Prinzessin Amalya flüstert Dir zu, dass die Tür nur über eine Statusänderung in der Kerker-Datenbank auf dem Server 172.18.0.108 geöffnet werden kann.</p>
+    <hr>
+    <div id="message">
+
+    </div>
+    <hr>
+    <div>
+
+      <form class="" action="." method="post">
+        <label id="answer_label" for="answer_txt"></label><br>
+        <input type="text" id="answer_txt"><br>
+        <button id="weiter">Weiter</button>
+      </form>
+
+
+    </div>
+    <hr>
+    <div id="info">
+
+    </div>
+  </article>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/stp.js"></script>
+</body>
+</html>
