@@ -87,7 +87,7 @@ $(document).ready(function(){
     if ( answer == "UPDATE kerker SET tuer_zustand='offen' WHERE id=3".toLowerCase()
     ){
       $('#message').empty();
-      $('<p class="win">Exzellent! Die Prinzessin ist befreit, und Du bist ein SQL-Superheld!</p>').appendTo('#message');
+      $('<p class="win">Exzellent! Die Prinzessin ist befreit, und Du bist ein(e) SQL-Superheld(in)!</p>').appendTo('#message');
       $('#answer_label').text("");
       $('#img_zelda').attr("src","img/zelda.png");
       stage++;
