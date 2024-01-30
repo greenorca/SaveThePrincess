@@ -4,6 +4,7 @@ $(document).ready(function(){
   init();
 
   $(this).on('contextmenu', function(e){
+	alert("Verlaufen?");
         e.preventDefault();
   });
 
