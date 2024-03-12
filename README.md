@@ -28,4 +28,4 @@ Sachdienliche Hinweise werden nach der Beantwortung der Fragen im Browser angeze
 
 Have fun!
 
-<img src="github_readme.jpg" alt="Screenshot Web-UI" title="Screenshot Web-UI" width=400>
+<img src="img/github_readme.jpg" alt="Screenshot Web-UI" title="Screenshot Web-UI" width=400>
